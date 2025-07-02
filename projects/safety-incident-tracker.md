@@ -1,3 +1,8 @@
+---
+layout: default
+title: Safety Incident Tracker
+---
+
 # 🛡️ Safety Incident Tracker
 
 ## 🧰 Technologies  
