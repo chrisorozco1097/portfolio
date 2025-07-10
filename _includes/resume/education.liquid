@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign education = data[1] | sort: 'startDate' | reverse %}
+  {% assign education = data[1] %}
   {% for content in education %}
     <li class="list-group-item">
       <div class="row">
@@ -28,6 +28,13 @@
                       <i class="fa-solid fa-location-dot iconlocation"></i>
                       {{ content.location }}
                     </p>
+                  </td>
+                </tr>
+              {% endif %}
+              {% if content.image %}
+                <tr>
+                  <td>
+                    <img src="{{ '/assets/img/logos/' | append: content.image }}" alt="Image for {{ content.title }}" class="img-fluid">
                   </td>
                 </tr>
               {% endif %}

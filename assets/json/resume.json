@@ -1,18 +1,16 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Christian Orozco",
+    "label": "Data Analyst | Automation Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
+    "email": "cfl.orozco@gmail.com",
+    "phone": "(405) 667-0060",
+    "url": "https://www.linkedin.com/in/chrisorozco1097/",
     "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "city": "Seattle",
       "countryCode": "US",
-      "region": "California"
+      "region": "Washington"
     },
     "profiles": [
       {
@@ -24,167 +22,247 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
+      "name": "The University of Oklahoma",
+      "position": "Senior Data Analyst",
+      "url": "https://www.ou.edu/",
+      "startDate": "Jan 2021",
+      "endDate": "Present",
+      "image" : "OU_logo.png",
+      "summary": ["Developed and deployed end-to-end BI solutions, including dashboards, scorecards, and analytics using Power BI.",
+                  "Integrated datasets from MySQL and cloud-based sources, aligning closely with operational and financial KPIs.",
+                  "Led report development efforts in a data warehousing context, applying normalized and dimensional modeling techniques to support ETL pipelines.",
+                  "Automated recurring business processes and file transfers using Power Automate, reducing manual effort and improving data integrity.",
+                  "Designed and implemented custom applications to standardize data entry and ensure consistency across cross-functional teams.",
+                  "Authored SQL queries and stored procedures to support data extraction, transformation, and loading (ETL).",
+                  "Collaborated with administrative, facilities, and operations teams to analyze metrics and trends and create custom reports.",
+                  "Experience developing in environments with a strong focus on operational KPIs, contact center metrics, and compliance.",
+                  "Demonstrated working knowledge of SharePoint integration, Excel automation, and scripting for data manipulation and reporting.",
+                  "Proven ability to align technical solutions with business needs by leveraging a strong foundation in operational processes and financial systems."],
+      "highlights": ["Relativity", "High"],
+      "location": "Norman, OK"
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "E80 Group",
+      "position": "Automation Engineer",
+      "url": "https://www.e80group.com/en/",
+      "startDate": "Jul 2022",
+      "endDate": "Jan 2024",
+      "image": "E80_logo.png",
+      "summary": ["Collaborated with cross-functional teams to drive the design, development, and successful implementation of automation solutions, leading to a significant increase in productivity. Demonstrated proficiency in software development to effectively create and maintain applications.",
+                  "Executed SQL queries proficiently to enforce traffic rules, ensuring a high level of data consistency and accuracy within the automation domain."],
+      "location": "Skokie, IL"
+    },
+    {
+      "name": "Tecnologico de Monterrey",
+      "position": "Teaching Assistant",
+      "url": "https://tec.mx/en",
+      "startDate": "Jan 2021",
+      "endDate": "Jul 2022",
+      "image": "TEC_logo.png",
+      "summary": ["Mentored undergraduate students in control systems, manufacturing processes, and industrial networks using tools like MATLAB-Simulink, TIA Portal, and RSLogix.",
+                  "Led the development of a specialized course in partnership with GENERAC, focusing on Deep Sea Electronics and CAN communication (2022).",
+                  "Assessed student performance and integrated real-world PLC programming scenarios to enhance applied learning outcomes."],
+      "location": "Mexico City, MX"
+    },
+    {
+      "name": "Boston Children's Hospital | Harvard Medical School",
+      "position": "Research Assistant",
+      "url": "https://research.childrenshospital.org/research-units/fetal-neonatal-neuroimaging-and-developmental-science-center-research",
+      "startDate": "Jul 2019",
+      "endDate": "Jan 2020",
+      "image": "BCH_logo.png",
+      "image2": "HMS_logo.png",
+      "summary": ["Improved and enhanced a Deep Learning algorithm for precise fetal brain detection utilizing MRI data at the prestigious Fetal-Neonatal Neuroimaging and Developmental Science Center (FNNDSC) as part of an internship through the Harvard Medical School.",
+                  "Skillfully employed Keras-TensorFlow Python libraries, adhering strictly to implementation prerequisites, to develop the cutting-edge algorithm."],
+      "location": "Boston, MA"
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "institution": "Tecnologico de Monterrey",
+      "location": "Mexico City, Mexico",
+      "url": "https://tec.mx/en",
+      "area": "Engineering Sciences",
+      "studyType": "Master's Degree",
+      "startDate": "Aug 2020",
+      "endDate": "Jul 2022",
+      "image": "TEC_logo.png",
+      "score": "98",
+      "courses": ["Robotics", "Data Science", "Machine Learning"]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "Tecnologico de Monterrey",
+      "location": "Gudalajara, Mexico",
+      "url": "https://tec.mx/en",
+      "area": "Mechatronics Engineering",
+      "studyType": "Bachelor's Degree",
+      "startDate": "Aug 2015",
+      "endDate": "Jul 2020",
+      "image": "TEC_logo.png",
+      "score": "93",
+      "courses": ["Robotics", "Mathematics", "Statistics"]
+    },
+    {
+      "institution": "Massachusetts Institute of Tecnology",
+      "location": "Boston, MA",
+      "url": "https://www.mit.edu/",
+      "studyType": "Exchange Program",
+      "startDate": "Aug 2019",
+      "endDate": "Dec 2019",
+      "image": "MIT_logo.png",
+      "courses": ["Signals and Systems", "Gender Studies", "Mathematics"]
+    },
+    {
+      "institution": "Universidad Autonoma de Madrid",
+      "location": "Madrid, Spain",
+      "url": "https://www.uam.es/uam/inicio",
+      "studyType": "Exchange Program",
+      "startDate": "Jan 2019",
+      "endDate": "Jun 2019",
+      "image": "UAM_logo.png",
+      "courses": ["Statistics", "Communication Theory", "Applied Mathematics"]
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "name": "Power BI Data Analyst Associate",
+      "date": "June 5th, 2025",
+      "issuer": "Microsoft",
+      "image": "MICR_logo.png",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/ChristianOrozco-4940/28C05101280571CF?sharingId=A8FF5B8C6D4E8388",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "name": "Azure Data Fundamentals",
+      "date": "May 17th, 2025",
+      "issuer": "Microsoft",
+      "image": "MICR_logo.png",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/ChristianOrozco-4940/8A9945BF0DD32041?sharingId=A8FF5B8C6D4E8388",
+      "icon": "fa-solid fa-clipboard-check"
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Azure Fundamentals",
+      "date": "May 22nd, 2025",
+      "issuer": "Microsoft",
+      "image": "MICR_logo.png",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/ChristianOrozco-4940/A78334B414F40CBB?sharingId=A8FF5B8C6D4E8388",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "A systematic mapping literature review of education around sexual and gender diversities",
+      "publisher": "Frontiers in Sociology",
+      "releaseDate": "August 22nd, 2022",
+      "image" : "FS_logo.png",
+      "url": "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2022.946683/full",
+      "summary": "Conducted a systematic mapping literature review analyzing 69 studies across five academic databases to assess how educational institutions address sexual and gender diversity. The study revealed a global lack of LGBTQ+ representation in curricula, limited use of technological tools, and a concentration of inclusive efforts within healthcare programs—especially scarce in Latin America. Findings highlight the positive impact of inclusive education on the LGBTQ+ community and the urgent need for broader, structured curricular integration."
     },
     {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
+      "name": "Use of Robotic Platforms as a Tool to Support STEM and Physical Education in Developed Countries: A Descriptive Analysis",
+      "publisher": "Sensors",
+      "releaseDate": "January 28th, 2022",
+      "image" : "SEN_logo.png",
+      "url": "https://www.mdpi.com/1424-8220/22/3/1037",
+      "summary": "This study explored the integration of assistive robots in Mexican classrooms to address student disengagement caused by traditional teaching methods and digital distractions. Four approaches using LEGO®, NAO, and Hexapod robots were implemented across primary and higher education in STEM and physical education settings. Results demonstrated that robotic-assisted instruction significantly improved students’ attention span, motivation, and information retention, offering a dynamic alternative to conventional teaching."
     },
     {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
+      "name": "Physical therapy using robotics: A project-based learning experience for undergraduate students",
+      "publisher": "AJET: Australasian Journal of Educational Technology",
+      "releaseDate": "December 6th, 2021",
+      "image" : "AJET_logo.png",
       "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "summary": "This study applied a project-based learning approach in higher education to address real-world challenges, engaging engineering students in designing a physical therapy routine using the NAO robot. In collaboration with a rehabilitation institute in Mexico City, the project fostered empathy, patient interaction, and the development of a functional rehabilitation tool. Usability and reproducibility assessments, including Cronbach’s alpha, showed strong engagement and approval from both patients and medical staff."
     }
   ],
   "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+  {
+    "name": "Programming & Scripting",
+    "level": "Advanced",
+    "icon": "fa-solid fa-code",
+    "keywords": [
+      "Python",
+      "R",
+      "SQL",
+      "DAX",
+      "Ladder Logic",
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    "name": "Engineering & Automation",
+    "level": "Advanced",
+    "icon": "fa-solid fa-gears",
+    "keywords": [
+      "RSLogix",
+      "Twincat",
+      "SolidWorks",
+      "MATLAB",
+      "Ladder Logic",
+      "Autodesk Inventor",
+      "CATIA"
+    ]
+  },
+  {
+    "name": "Databases",
+    "level": "Intermediate",
+    "icon": "fa-solid fa-database",
+    "keywords": [
+      "MySQL",
+      "SQL Server",
+      "SQLite"
+    ]
+  },
+  {
+    "name": "Data & Analytics",
+    "level": "Advanced",
+    "icon": "fa-solid fa-chart-line",
+    "keywords": [
+      "Power BI",
+      "Tableau",
+      "Google Analytics",
+      "Crystal Reports"
+    ]
+  },
+  {
+    "name": "Low-Code & Automation Platforms",
+    "level": "Intermediate",
+    "icon": "fa-solid fa-plug",
+    "keywords": [
+      "Power Automate",
+      "Power Apps"
+    ]
+  },
+  {
+    "name": "Management Solutions",
+    "level": "Intermediate",
+    "icon": "fa-solid fa-briefcase",
+    "keywords": [
+      "PeopleSoft",
+      "AiM (AssetWorks)"
+    ]
+  }
+],
   "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
     {
       "language": "English",
       "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "icon": "fa-solid fa-flag",
+      "image": "usa.png"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "language": "Spanish",
+      "fluency": "Native Speaker",
+      "icon": "fa-solid fa-flag",
+      "image": "spa.png"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Conversational",
+      "icon": "fa-solid fa-flag",
+      "image": "ita.png"
     }
   ],
   "projects": [
@@ -195,6 +273,16 @@
       "startDate": "2018-01-01",
       "endDate": "2018-01-01",
       "url": "https://example.com"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Integral Student Award",
+      "date": "May 2020",
+      "awarder": "Tecnologico de Monterrey",
+      "image": "student_award.png",
+      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+      "summary": "The Integral Student Award from Tecnológico de Monterrey is the highest recognition granted by the institution to its most outstanding student for their involvement across multiple areas beyond academics. This award is presented to a student that has shown exceptional commitment to their holistic development, including participation in social, artistic, athletic, leadership, and student development activities. The award is given to a student who meets graduation requirements and has excelled in the areas that make up the student experience at the University. The recipient is selected from among the graduating class of the current semester. This award aims to recognize the effort, dedication, and passion of young people in developing their skills and contributing positively to their academic community and society. This award reflects Tec de Monterrey’s holistic approach to education, focused on forming committed leaders and responsible citizens."
     }
   ]
 }

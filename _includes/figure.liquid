@@ -36,11 +36,12 @@
       {% if include.class %}
         class="{{ include.class }}"
       {% endif %}
-      {% if include.width %}
-        width="{{ include.width }}"
+      {% if include.style %}
+        style="{{ include.style }}"
       {% else %}
-        width="100%"
+        style="width: 60%;"
       {% endif %}
+
       {% if include.height %}
         height="{{ include.height }}"
       {% else %}

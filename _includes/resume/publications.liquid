@@ -1,5 +1,5 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign publications = data[1] | sort: 'releaseDate' | reverse %}
+  {% assign publications = data[1] %}
   {% for content in publications %}
     <li class="list-group-item">
       <div class="row">
@@ -12,6 +12,14 @@
                   <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                 </td>
               </tr>
+              {% if content.image %}
+                <tr>
+                  <td>
+                    <p></p>
+                    <img src="{{ '/assets/img/logos/' | append: content.image }}" alt="Image for {{ content.title }}" class="img-fluid">
+                  </td>
+                </tr>
+              {% endif %}
             </tbody>
           </table>
         </div>
